@@ -1,0 +1,204 @@
+<!-- survey page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Friend Finder | Survey</title>
+</head>
+
+<!-- New User Questions -->
+<body class="pt-4 pb-4 pl-4 pr-4">
+    <h1 class="text-center">Survey Questions</h1>
+    <form>
+        <div class="form-group">
+            <label for="FormControlTextarea1">Name (Required)</label>
+            <textarea class="form-control" id="name" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="FormControlTextarea2">Link to Photo Image (Required)</label>
+            <textarea class="form-control" id="photo" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="FormControlTextarea2">Profile Header: Tell Us Something About Yourself!</label>
+            <textarea class="form-control" id="about" rows="1"></textarea>
+        </div>
+    </form>
+    <!-- New User Personailty Test -->
+    <form>
+        <h4 class="text-center">Use the drop down boxes below to indicate the degree to which each statement describes you.</h4>
+        <h6 class="text-center">(And be honest. We already know you're boring.)</h6>
+        <div class="form-group">
+            <label for="FormControlSelect1">1. I find unpredictable situations exciting.</label>
+            <select class="form-control" id="q1">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">2. I get bored when I have to do the same familiar things.</label>
+            <select class="form-control" id="q2">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">3. I have a very wide range of interests.</label>
+            <select class="form-control" id="q3">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">4. I am more creative than most people.</label>
+            <select class="form-control" id="q4">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">5. I do things on the spur of the moment.</label>
+            <select class="form-control" id="q5">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">6. I am always looking for new experiences.</label>
+            <select class="form-control" id="q6">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">7. I am always doing new things.</label>
+            <select class="form-control" id="q7">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">8. I am more enthusiastic than most people.</label>
+            <select class="form-control" id="q8">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">9. I get restless if I have to stay home for any length of time.</label>
+            <select class="form-control" id="q9">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="FormControlSelect1">10. On my time off, I like to be free to do whatever looks fun.</label>
+            <select class="form-control" id="q10">
+                <option value="1">1 (Not at all me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Perfectly describes me)</option>
+            </select>
+        </div>
+        <div class="text-center!important">
+        <button type="submit" class="btn btn-primary" id="submit">Find Me Someone PLEASSSSSEEEE!!!</button>
+        <button type="submit" class="btn btn-danger" id="quit" href="/home">Nevermind (I'd rather be alone)</button>
+    </div>
+    </form>
+
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title text-center!important"><strong>Lucky You! You Matched With</strong></h3>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName">Name: </h2>
+                    <h4 id="matchAbout">Headline: </h4>
+                    <img id="matchPhoto" src="" alt="" height="250" class="text-center">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                var currentURL = window.location.origin;
+
+                // take user inputs
+                $("#submit").on("click", function (event) {
+                    event.preventDefault();
+
+                    var newFriend = {
+                        name: $("#name").val().trim(),
+                        photo: $("#photo").val().trim(),
+                        about: $("#about").val().trim(),
+                        scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+                    };
+
+                    // send newFriend to server
+                    $.post(currentURL + "/api/friends", newFriend, function (data) {
+                        console.log(data);
+                        // receive friendMatch info
+                        $("#matchName").text("Name: " + data.name);
+                        $("#matchAbout").text("Headline: "+ data.about);
+                        $("#matchPhoto").attr("src", data.photo)
+                        $("#matchPhoto").attr("alt", data.photo);
+                    });
+                    // Show the friendMatch in the modal
+                    $("#resultsModal").modal('toggle');
+                });
+
+                // if the user decides to quit, wish them luck
+                $("#quit").on("click", function (event) {
+                    alert("Good Luck! :)")
+                })
+
+            </script>
+
+</body>
+
+</html>
